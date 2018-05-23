@@ -6,6 +6,31 @@ body {
   font-family: 'Cedarville Cursive', cursive;
   font-size: 22px;
 }
+
+.main-text{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+.btn-min-block{
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-clear{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+
+.btn-clear:hover{
+    color: #000;
+    background-color: #FFF;
+}
+
 .main-text
 {
     position: absolute;
@@ -29,4 +54,30 @@ body {
 {
     color: #000;
     background-color: #FFF;
+}
+
+#name-mission{
+  padding-top: 12%;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                   0px 8px 13px rgba(0,0,0,0.1),
+                   0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#name-mission hr {
+    width: 150px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#biopic {
+  padding-top: 50px;
+}
+
+#biopic img {
+  width: 250px;
+  height: auto;
+}
+
+#bio {
+  padding-top: 115px;
 }
