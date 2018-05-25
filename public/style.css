@@ -1,10 +1,30 @@
 body {
   padding-top: 50px;
+  background-color: #d5e2dc;
+  position: relative;
+}
+
+.panel {
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+#contact {
+  padding-top: 15px
+}
+
+.panel-body {
+  text-align: center;
 }
 
 .navbar-brand {
   font-family: 'Cedarville Cursive', cursive;
   font-size: 22px;
+}
+
+.navbar{
+  border-bottom: 2px solid #4e88e5;
+  opacity: 0.8;
 }
 
 .main-text{
@@ -38,6 +58,7 @@ body {
     width: 96.66666666666666%;
     color: #FFF;
 }
+
 .btn-min-block
 {
     min-width: 170px;
@@ -79,5 +100,13 @@ body {
 }
 
 #bio {
-  padding-top: 115px;
+  padding-top: 50px;
+}
+
+#cv {
+  padding-top: 35px;
+}
+
+.footer-icon {
+  padding: 15px;
 }
